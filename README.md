@@ -20,7 +20,9 @@ to get results for [issue-wanted](https://github.com/kowainik/issue-wanted).
 
 ## Query
 The endpoints are (each open to GET requests):
+```
 localhost:8080/successfulqueries
 localhost:8080/failedqueries
 localhost:8080/totalissues
 localhost:8080/openissues
+```
