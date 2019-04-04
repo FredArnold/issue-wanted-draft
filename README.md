@@ -19,10 +19,14 @@ stack exec issues-wanted-draft-exe
 to get results for [issue-wanted](https://github.com/kowainik/issue-wanted).
 
 ## Query
-The endpoints are (each open to GET requests):
+The endpoints (each open to GET requests):
 ```
 localhost:8080/successfulqueries
 localhost:8080/failedqueries
+```
+count failed and successful queries to the GitHub API (the query reruns once a minute)
+```
 localhost:8080/totalissues
 localhost:8080/openissues
 ```
+provide data from GitHub
