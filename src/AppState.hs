@@ -14,9 +14,3 @@ data AppState =
 
 zeroState :: AppState
 zeroState = AppState 0 0 0 0
-
--- data RepositoryState =
---   RepositoryState
---   { totalIssues :: Int
---   , openIssues :: Int
---   }
